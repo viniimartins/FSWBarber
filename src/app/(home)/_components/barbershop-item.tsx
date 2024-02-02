@@ -29,7 +29,7 @@ const BarberShopItem = ({ barbershop }: BarbershopItemProps) => {
                             objectFit: "cover"
                         }}
                         fill
-                        sizes="100vw"
+                        sizes="(max-width: 768px) 100vw, 33vw"
                         className="rounded-2xl"
                     />
                 </div>
