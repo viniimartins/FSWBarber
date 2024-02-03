@@ -38,6 +38,7 @@ const BarbershopInfo = ({ barbershop }: BarbershopDatailsPageProps) => {
                         objectFit: "cover"
                     }}
                     className="opacity-75"
+                    priority
                 />
             </div>
 
