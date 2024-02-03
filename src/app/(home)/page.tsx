@@ -11,9 +11,6 @@ export default async function Home() {
 
     const barbershops = await db.barbershop.findMany({})
 
-
-    console.log(barbershops)
-
     return (
         <div>
             <Header />
