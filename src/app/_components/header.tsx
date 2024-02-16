@@ -10,7 +10,8 @@ import Link from "next/link";
 
 const Header = () => {
     return (
-        <Card className="rounded-none">
+      <header>
+          <Card className="rounded-none">
             <CardContent className="p-5 flex flex-row justify-between items-center ">
                 <div className="relative w-[120px] h-[18px]">
                     <Link href="/">
@@ -30,6 +31,7 @@ const Header = () => {
                 </Sheet>
             </CardContent>
         </Card>
+      </header>
     );
 }
 
