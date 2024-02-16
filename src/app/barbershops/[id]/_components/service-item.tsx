@@ -161,7 +161,7 @@ const ServiceItem = ({ barbershop, service, isAuthenticated }: ServiceItemProps)
                                 <SheetTrigger asChild>
                                     <Button variant="secondary" onClick={handleBookingClick}>Reservar</Button>
                                 </SheetTrigger>
-                                <SheetContent className="p-0">
+                                <SheetContent className="p-0 overflow-x-auto">
                                     <SheetHeader className="text-left px-5 py-6 border-b border-solid border-secondary">
                                         <SheetTitle>Fazer Reserva</SheetTitle>
                                     </SheetHeader>
